@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        asdf {
+           float: right; 
+        }
+        center {
+            text-align: center;
+        }
+    </style>
+    <hr color="blue"><div style="text-align: end;">
+    <span><a onclick="alert('이 기능은 지원하지 않는 기능입니다.');" style="cursor:pointer">로그인</a></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><a onclick="alert('이 기능은 지원하지 않는 기능입니다.');" style="cursor:pointer">회원가입</a></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span ><a onclick="alert('이 기능은 지원하지 않는 기능입니다.');" style="cursor:pointer">검색</a></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <a href="Main.html"><div style="text-align:center;"><img src="동물이 행복한 세상 메인 로고.png"></div></a>
+    
+    <center>
+    <a href="무료 입소 입양.html"><button style="WIDTH: 150pt; HEIGHT: 30pt">무료 입소/입양</button></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="보호소 혜택 - 입양 시 혜택.html"><button style="WIDTH: 150pt; HEIGHT: 30pt">보호소 혜택</button></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="About.html"><button style="WIDTH: 150pt; HEIGHT: 30pt">About</button></a>
+    </center>
+    <hr>
+    <h1 style="text-align: center;">About</h1>
+    <div style="text-align: center;">
+    <button onclick="공지사항()" style="WIDTH: 100pt; HEIGHT: 20pt;">공지사항</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="유튜브()" style="WIDTH: 100pt; HEIGHT: 20pt;">유튜브</button></a>
+    <br><br>
+    <div style="text-align: center;"><img src="About.jpg"></div>
+    <div style="text-align:center;"><img src="밑부분.png"></div>
+
+    <script>
+        function 공지사항() {
+            if (!confirm("예 를 누를 경우 실제 도그마루 공지사항 사이트로 이동합니다 \n이동하시겠습니까?")) {
+            } else {
+                window.location = "https://dmanimal.co.kr/notice"
+            }
+        }
+        function 유튜브() {
+            if (!confirm("예 를 누를 경우 실제 도그마루 유튜브 사이트로 이동합니다\n이동하시겠습니까?")) {   
+            } else {
+                window.location = "https://www.youtube.com/channel/UCjo8aPhhUDSJZxGIPvn9oKA"
+            }
+        }
+    </script>
+</body>
+</html>
